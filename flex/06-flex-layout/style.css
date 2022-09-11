@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -28,7 +31,9 @@ input {
 }
 
 ul {
-list-style-type: none;  
+list-style-type: none;
+margin: 0;  
+padding: 0;
 }
 
 a:link {
